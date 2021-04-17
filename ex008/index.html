@@ -4,23 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras formatações</title>
+    <title>Listas</title>
 </head>
 <body>
-    <h1>Outras formatações</h1>
-    <h2>Código-fonte</h2>
-    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
-    <pre>
-        <code>
-            num = int(input('Digite um número: '))
-            if num % 2 == 0:
-                print(f'O número {num} é PAR')
-            else:
-                print(f'O número {num} é IMPAR')
-            print(f'Fim do programa')
-        </code>
-    </pre>
-
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" ><!--a tag 'ol' cria uma lista ordenada e 'type' dirá se você quer que a lista seja feita por números, letras, números romanos, miusculo ou minusculo. Já para começar de determinado ponto, por exemplo: começando uma lista do numero '4' ou da letra 'd', basta usar ' start="4" logo após 'type'.-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Estudar</li>
+        <li>Jogar um lolzinho</li>
+        <li>Ir para a academia</li>
+        <li>Assistir o Jukera na Twitch ou o Baiano</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas Ordenadas definindo o a posição inicial</h2>
+    <ol type="a" start="4"><!--Start dirá a posição da letra onde eu quero começar minha lista-->
+        <li>jogar league of legends</li>
+        <li>jogar valorant</li>
+        <li>jogar Cs Go</li>
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul type="circle"><!--Disc, Circle e Square-->
+        <li>Pão
+        <li>Leite
+        <li>Tomate
+        <li>Arroz
+        <li>Feijão
+        <li>Farinha
+        <li>Ovos
+    </ul>
     
 </body>
 </html>
